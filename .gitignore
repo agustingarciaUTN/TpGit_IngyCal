@@ -23,6 +23,8 @@ target/
 !gradle/wrapper/gradle-wrapper.jar
 
 # ---------- IntelliJ IDEA ----------
+# Cada integrante genera su propia configuracion al abrir el proyecto.
+# Si un archivo ya estaba versionado: git rm --cached <archivo>
 .idea/
 *.iml
 *.ipr
