@@ -25,6 +25,11 @@ public class clase {
 		return edad;
 	}
 
+	public int calcularEdad(int anioNacimiento) {
+		int anioActual = java.time.Year.now().getValue();
+		return anioActual - anioNacimiento;
+	}
+
 	public String getDocumento() {
 		return documento;
 	}
