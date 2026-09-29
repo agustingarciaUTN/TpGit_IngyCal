@@ -1,0 +1,61 @@
+# ============================================================
+# .gitignore - TpGit_IngyCal
+# Evita versionar configuraciones locales, artefactos de
+# compilacion y archivos propios de cada entorno de desarrollo.
+# ============================================================
+
+# ---------- Java: compilados y empaquetados ----------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.log
+hs_err_pid*
+replay_pid*
+
+# ---------- Salidas de build ----------
+out/
+bin/
+build/
+target/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---------- IntelliJ IDEA ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ---------- Eclipse ----------
+.project
+.classpath
+.settings/
+.metadata/
+
+# ---------- NetBeans ----------
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+
+# ---------- VS Code ----------
+.vscode/
+
+# ---------- Configuracion local y secretos ----------
+.env
+.env.*
+!.env.example
+*.local
+*.local.properties
+local.properties
+application-local.properties
+application-local.yml
+
+# ---------- Sistema operativo ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
