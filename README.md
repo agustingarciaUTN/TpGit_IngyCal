@@ -98,6 +98,8 @@ necesita la aprobación de al menos un CODEOWNER.
 |----------|----------------------------------------------------------------|
 | `v1.0.0` | Primera release: modelo con estado civil y `setEstudiante`.    |
 | `v1.0.1` | Hotfix: se eliminan los campos "Estudiante", que hacían fallar el envío de una request HTTP. |
+| `v1.1.0` | Nueva funcionalidad: cálculo de la edad (`calcularEdad`). La altura del sujeto se incorporó y luego se revirtió. |
+| `v1.1.1` | Documentación: README, `.gitignore` y plantilla de pull request. |
 
 ---
 
