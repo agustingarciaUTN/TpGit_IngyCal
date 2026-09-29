@@ -4,13 +4,15 @@ public class clase {
 	private int edad;
 	private String documento;
 	private boolean estudiante;
+	private String estadoCivil;
 
-	public clase(String nombre, String apellido, int edad, String documento, boolean estudiante) {
+	public clase(String nombre, String apellido, int edad, String documento, boolean estudiante, String estadoCivil) {
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.edad = edad;
 		this.documento = documento;
 		this.estudiante = estudiante;
+		this.estadoCivil = estadoCivil;
 	}
 
 	public String getNombre() {
@@ -36,4 +38,14 @@ public class clase {
 	public void setEstudiante(Boolean estudiante){
 		this.estudiante = estudiante;
 	}
+
+	public String getEstadoCivil() {
+		return estadoCivil;
+	}
+
+	public void setEstadoCivil(String estadoCivil) {
+		this.estadoCivil = estadoCivil;
+	}
+
+    
 }
