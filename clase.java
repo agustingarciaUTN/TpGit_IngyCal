@@ -28,9 +28,12 @@ public class clase {
 	public String getDocumento() {
 		return documento;
 	}
+    
+    public Boolean getEstudiante(){
+        return estudiante;
+    }
 
-	public boolean isEstudiante() {
-		return estudiante;
+	public void setEstudiante(Boolean estudiante){
+		this.estudiante = estudiante;
 	}
-
 }
