@@ -1,4 +1,4 @@
-name: CI
+name: ci
 
 on:
   pull_request:
@@ -6,3 +6,13 @@ on:
     branches:
       - main
       - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del codigo
+        uses: actions/checkout@v4
+
+      - name: Pruebas basicas
+        run: echo "El flujo de CI se ha disparado correctamente."
