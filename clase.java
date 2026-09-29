@@ -2,15 +2,13 @@ public class clase {
 	private String nombre;
 	private String apellido;
 	private int edad;
-	private double altura;
 	private String documento;
 	private String estadoCivil;
 
-	public clase(String nombre, String apellido, int edad, double altura, String documento, String estadoCivil) {
+	public clase(String nombre, String apellido, int edad, String documento, String estadoCivil) {
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.edad = edad;
-		this.altura = altura;
 		this.documento = documento;
 		this.estadoCivil = estadoCivil;
 	}
@@ -25,10 +23,6 @@ public class clase {
 
 	public int getEdad() {
 		return edad;
-	}
-
-	public double getAltura() {
-		return altura;
 	}
 
 	public int calcularEdad(int anioNacimiento) {
