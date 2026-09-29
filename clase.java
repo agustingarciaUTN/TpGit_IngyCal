@@ -3,12 +3,14 @@ public class clase {
 	private String apellido;
 	private int edad;
 	private String documento;
+    private boolean estudiante;
 
-	public clase(String nombre, String apellido, int edad, String documento) {
+	public clase(String nombre, String apellido, int edad, String documento, Boolean estudiante) {
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.edad = edad;
 		this.documento = documento;
+        this.estudiante = estudiante;
 	}
 
 	public String getNombre() {
@@ -26,4 +28,8 @@ public class clase {
 	public String getDocumento() {
 		return documento;
 	}
+    
+    public Boolean getEstudiante(){
+        return estudiante;
+    }
 }
