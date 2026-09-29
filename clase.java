@@ -32,4 +32,8 @@ public class clase {
     public Boolean getEstudiante(){
         return estudiante;
     }
+
+	public void setEstudiante(Boolean estudiante){
+		this.estudiante = estudiante;
+	}
 }
